@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap');
+
 .App {
   text-align: center;
   margin: 0;
@@ -49,7 +51,7 @@
   height: 100vh;
   width: 100%;
   grid-template-rows: 80% 20%;
-  background-color: #342643;
+  background-color: #4f3673;
 }
 
 .banner-cont spline-viewer {
@@ -66,7 +68,7 @@
   grid-column: 1;
   padding: 0; /* Remove default padding */
   margin: 0; /* Remove default margin */
-  background-color: #342643;
+  background-color: #4f3673;
 }
 
 .navigation-bar ul {
@@ -79,7 +81,7 @@
 
 .navigation-bar li {
   font-size: 30px;
-  font-family: 'Zrnic';
+  font-family: 'Blinker';
   color: #ffffff;
 }
 
@@ -87,7 +89,7 @@
   display: block;
   height: 100%;
   width: 100%;
-  background-color: #BE7B72;
+  background-color: #ca707c;
 }
 
 .cardHolder {

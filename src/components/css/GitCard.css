@@ -1,11 +1,13 @@
 .gitCard {
     display: flex;
     flex-direction: column;
-    background-color: #824D74;
-    margin: 10px;
+    background-color: #663355;
+    margin: 20px;
     width: 30vw;
     overflow: hidden;
     border-radius: 20px;
+    justify-content: space-between;
+    font-family: 'Blinker', sans-serif;
 }
 
 .gitCard a {
@@ -14,28 +16,35 @@
 
 .header {
     display: flex;
-    justify-content:flex-start;
+    justify-content: space-between;
+    align-items: center;
     color: white;
     background-color: #161c29;
+    padding: 10px;
 }
 
 .header img {
     height: 15vh;
+    margin-right: 10px;
 }
 
 .header h3 {
-    margin: auto;
+    padding-right: 100px;
 }
 
 .stats {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items:flex-end;
     color: white;
 }
 
 .details {
     color: white;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 20px;
+}
+
+.gitCard:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }

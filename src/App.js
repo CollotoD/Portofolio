@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react'
-import logo from './logo.svg';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import GitCard from './components/GitCard'
 
@@ -49,7 +48,7 @@ function App() {
           ?(
             <>
             {repos.map((repo) => (
-              <GitCard repo={repo}/>
+              <GitCard key={repo.id} repo={repo}/>
             ))}
             </>
             ) : (
