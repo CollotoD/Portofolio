@@ -1,0 +1,41 @@
+.gitCard {
+    display: flex;
+    flex-direction: column;
+    background-color: #824D74;
+    margin: 10px;
+    width: 30vw;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.gitCard a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content:flex-start;
+    color: white;
+    background-color: #161c29;
+}
+
+.header img {
+    height: 15vh;
+}
+
+.header h3 {
+    margin: auto;
+}
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+}
+
+.details {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}

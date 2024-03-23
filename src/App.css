@@ -87,5 +87,18 @@
   display: block;
   height: 100%;
   width: 100%;
-  background-color: #342643;
+  background-color: #BE7B72;
+}
+
+.cardHolder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.projects h2 {
+  margin-top: 0;
+  padding-top: 30px;
+  color: white;
+  font-size: 30px;
 }

@@ -16,8 +16,8 @@ function App() {
     });
 
     const data = await res.json();
-    console.log(data.map(({ id, full_name, html_url, stargazers_count, watchers_count, updated_at }) => 
-    ({id, full_name, html_url, stargazers_count, watchers_count, updated_at})))
+    setRepos(data.map(({ id, full_name, description, html_url, stargazers_count, watchers_count, updated_at }) => 
+    ({id, full_name, description, html_url, stargazers_count, watchers_count, updated_at})))
   }
 
   const [repos, setRepos] = useState([]);
@@ -43,14 +43,15 @@ function App() {
         </div>
       </section>
       <section className="projects">
+        <h2>PROJECTS</h2>
         <div className="cardHolder">
           {repos?.length > 0
           ?(
-            <div className="container">
+            <>
             {repos.map((repo) => (
               <GitCard repo={repo}/>
             ))}
-            </div>
+            </>
             ) : (
               <div className="empty">
               <h2>No repos found</h2>
