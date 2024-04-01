@@ -6,11 +6,11 @@
     gap: 2rem;
     padding: 2rem 2rem 2rem 2rem;
     background-color: #ca707c;
-  }
+}
   
-  .badgeProgrammingLang,
-  .badgeFrameworks,
-  .badgeDevTools {
+.badgeProgrammingLang,
+.badgeFrameworks,
+.badgeDevTools {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 1rem;
@@ -18,10 +18,20 @@
     max-width: 800px;
     justify-items: center;
     align-items: center;
-  }
+}
   
-  .badge {
+.badge {
+    display: grid;
+    grid-template-rows: 70% 30%;
+    justify-items: center;
+    align-items: center;
+    font-family: 'Zrnic';
+    color: #ffffff;
+}
+
+.badge img {
     width: 100px;
-    height: 100px;
+    height: auto;
     object-fit: contain;
-  }
+    padding-bottom: 20px;
+}
