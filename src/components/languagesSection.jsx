@@ -5,6 +5,7 @@ function LanguagesSection () {
     return (
         <section className="languages">
         <div className="badgeDisplay">
+            <h1>PROGRAMMING LANGUAGES</h1>
           <div className="badgeProgrammingLang">
             <div className="badge">
                 <img alt="https://via.placeholder.com/100x100" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg" />
