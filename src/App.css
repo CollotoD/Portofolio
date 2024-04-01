@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap');
+
 .App {
   text-align: center;
   margin: 0;
@@ -79,7 +81,7 @@
 
 .navigation-bar li {
   font-size: 30px;
-  font-family: 'Zrnic';
+  font-family: 'Blinker';
   color: #ffffff;
 }
 
