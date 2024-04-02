@@ -51,7 +51,8 @@
   height: 100vh;
   width: 100%;
   grid-template-rows: 80% 20%;
-  background-color: #4f3673;
+  background: rgb(79,54,115);
+  background: radial-gradient(circle, rgba(79,54,115,1) 0%, rgba(23,23,23,1) 100%);
 }
 
 .banner-cont spline-viewer {
@@ -68,7 +69,6 @@
   grid-column: 1;
   padding: 0; /* Remove default padding */
   margin: 0; /* Remove default margin */
-  background-color: #4f3673;
 }
 
 .navigation-bar ul {
@@ -82,14 +82,14 @@
 .navigation-bar li {
   font-size: 30px;
   font-family: 'Blinker';
-  color: #ffffff;
+  color: #EDEDED;
 }
 
 .projects {
   display: block;
   height: 100%;
   width: 100%;
-  background-color: #ca707c;
+  background-color: #171717;
 }
 
 .cardHolder {
@@ -101,6 +101,6 @@
 .projects h2 {
   margin-top: 0;
   padding-top: 30px;
-  color: white;
+  color: #EDEDED;
   font-size: 30px;
 }
