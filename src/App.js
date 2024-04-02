@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import GitCard from './components/GitCard'
+import LanguagesSection from './components/languagesSection';
 
 function App() {
 
@@ -59,6 +60,7 @@ function App() {
               }
         </div>
       </section>
+      <LanguagesSection />
     </div>
     </>
   );

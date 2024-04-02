@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap');
+
+.badgeDisplay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 2rem 2rem 2rem;
+    background-color: #4f3673;
+    font-family: 'Blinker';
+    color: #ffffff;
+    height: 100vh;
+    width: 100%;
+}
+  
+.badgeProgrammingLang,
+.badgeFrameworks,
+.badgeDevTools {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1rem;
+    width: 100%;
+    max-width: 800px;
+    justify-items: center;
+    align-items: center;
+}
+  
+.badge {
+    display: grid;
+    grid-template-rows: 70% 30%;
+    justify-items: center;
+    align-items: center;
+    font-family: 'Blinker';
+    color: #ffffff;
+}
+
+.badge img {
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+    padding-bottom: 20px;
+}

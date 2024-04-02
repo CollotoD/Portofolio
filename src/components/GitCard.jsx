@@ -3,6 +3,7 @@ import './css/GitCard.css';
 import logo from '../collotod_remix-removedbg.png';
 
 function GitCard({ repo }) {
+function GitCard({ repo }) {
     return (
         <div className="gitCard">
             <div className="cardHeader">
@@ -25,5 +26,7 @@ function GitCard({ repo }) {
         </div>
     );
 }
+
+export default GitCard;
 
 export default GitCard;
