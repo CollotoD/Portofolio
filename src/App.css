@@ -51,6 +51,7 @@
   height: 100vh;
   width: 100%;
   grid-template-rows: 80% 20%;
+  background-color: #4f3673;
   background: rgb(139,112,200);
   background: linear-gradient(135deg, rgba(139,112,200,1) 4%, rgba(241,100,64,1) 50%, rgba(253,196,117,1) 96%);
 }
@@ -69,6 +70,7 @@
   grid-column: 1;
   padding: 0; /* Remove default padding */
   margin: 0; /* Remove default margin */
+  background-color: #4f3673;
 }
 
 .navigation-bar ul {
@@ -89,6 +91,20 @@
   display: block;
   height: 100%;
   width: 100%;
+  background-color: #EEE2D3;
+}
+
+.cardHolder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.projects h2 {
+  margin-top: 0;
+  padding-top: 30px;
+  color: white;
+  font-size: 30px;
   background-color: #171717;
 }
 

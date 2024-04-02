@@ -1,52 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap');
 
 .gitCard {
-    display: flex;
-    flex-direction: column;
-    background-color: #663355;
-    margin: 20px;
-    width: 30vw;
-    overflow: hidden;
+    display: grid;
+    grid-template-rows: 20vh 30vh;
+    margin: 2rem;
+    gap: 2rem;
+    width: 40%;
+    background-color: #F2E9E4;
     border-radius: 20px;
-    justify-content: space-between;
-    font-family: 'Blinker', sans-serif;
+    overflow: hidden;
+    font-family: "Blinker";
 }
 
-.gitCard a {
-    text-decoration: none;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
+.cardHeader {
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 30% 70%;
     align-items: center;
-    color: white;
-    background-color: #161c29;
-    padding: 10px;
+    justify-items: center;
+    background-color: #AF7A6D;
+    border-radius: 20px;
 }
 
-.header img {
-    height: 15vh;
-    margin-right: 10px;
+.cardHeader img {
+    grid-column: 1;
+    width: auto;
+    height: 20vh;
 }
 
-.header h3 {
-    padding-right: 100px;
-}
-
-.stats {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items:flex-end;
-    color: white;
+.cardHeader h3 {
+    grid-column: 2;
+    color: #F2E9E4;
+    font-size: 24px;
+    margin-left: 10%;
+    margin-right: 30%;
 }
 
 .details {
-    color: white;
-    padding: 20px;
+    grid-row: 2;
+    display: grid;
+    grid-template-rows: 50% 40%;
+    font-size: 22px;
+    color: #AF7A6D;
 }
 
-.gitCard:hover {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+.details h3 {
+    margin: 20px;
+    font-size: 18px;
+    color: #AF7A6D;
+}
+
+.statistics {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.starCounter {
+    grid-column: 1;
+}
+
+.watchCounter {
+    grid-column: 2;
 }
