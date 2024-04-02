@@ -7,11 +7,12 @@
     justify-content: center;
     gap: 2rem;
     padding: 2rem 2rem 2rem 2rem;
-    background-color: #4f3673;
+    background-color: #DFC7BD;
     font-family: 'Blinker';
     color: #ffffff;
     height: 100vh;
     width: 100%;
+    padding: 0px;
 }
   
 .badgeProgrammingLang,
