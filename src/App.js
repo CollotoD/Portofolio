@@ -9,7 +9,6 @@ function App() {
     const res = await fetch(`${process.env.REACT_APP_API_URL}`, { 
       method: 'get', 
       headers: new Headers({
-        'Authorization': `token ${process.env.REACT_APP_API_TOKEN}`,
         'Accept': 'application/vnd.github.v3+json',
         'User-Agent': 'MyProtofolioWebApp'
       })
@@ -36,7 +35,6 @@ function App() {
             <ul>
               <li>PROJECTS</li>
               <li>LANGUAGES</li>
-              <li>ASPIRATION</li>
               <li>ABOUT ME</li>
             </ul>
           </div>
